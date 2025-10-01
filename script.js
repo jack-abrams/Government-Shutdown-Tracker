@@ -26,6 +26,7 @@ async function loadData() {
       throw new Error(`Request for probabilities.json failed with status ${res.status}`);
     }
 
+    const res = await fetch('probabilities.json', { cache: 'no-store' });
     const data = await res.json();
     render(data);
   } catch (e) {
