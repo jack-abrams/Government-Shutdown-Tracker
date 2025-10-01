@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "title": "Government Shutdown Length Probability Tracker",
+    "last_updated_iso": "2025-10-01T10:00:00",
+    "notes": "Subjective forecast, anchored to historical shutdowns and current dynamics. Day 0 = 2025-10-01."
+  },
+  "buckets": [
+    {
+      "range": "0\u20133 days",
+      "prob": 18
+    },
+    {
+      "range": "4\u20137 days",
+      "prob": 25
+    },
+    {
+      "range": "8\u201314 days",
+      "prob": 22
+    },
+    {
+      "range": "15\u201321 days",
+      "prob": 15
+    },
+    {
+      "range": "22\u201335 days",
+      "prob": 12
+    },
+    {
+      "range": ">35 days",
+      "prob": 8
+    }
+  ],
+  "derived": {
+    "median_days": "\u2248 6\u20137",
+    "mean_days": "\u2248 10\u201312",
+    "chance_end_within_week_percent": 43
+  },
+  "daily_tracker": [
+    {
+      "day": 0,
+      "date": "2025-10-01",
+      "end_today_prob": null,
+      "shutdown_continues_prob": 100,
+      "watch": "Vote announcements, whip counts, White House demands"
+    },
+    {
+      "day": 1,
+      "date": "2025-10-02",
+      "end_today_prob": 12,
+      "shutdown_continues_prob": 88,
+      "watch": "Senate procedural votes, whip-count leaks"
+    },
+    {
+      "day": 2,
+      "date": "2025-10-03",
+      "end_today_prob": 15,
+      "shutdown_continues_prob": 75,
+      "watch": "Leadership meetings, CR proposals"
+    },
+    {
+      "day": 3,
+      "date": "2025-10-04",
+      "end_today_prob": 16,
+      "shutdown_continues_prob": 60,
+      "watch": "Deal drafts, concessions, leadership statements"
+    },
+    {
+      "day": 4,
+      "date": "2025-10-05",
+      "end_today_prob": 14,
+      "shutdown_continues_prob": 44,
+      "watch": "Floor votes, Senate cloture"
+    },
+    {
+      "day": 5,
+      "date": "2025-10-06",
+      "end_today_prob": 10,
+      "shutdown_continues_prob": 30,
+      "watch": "House/Senate reconcile, market pressure"
+    },
+    {
+      "day": 6,
+      "date": "2025-10-07",
+      "end_today_prob": 6,
+      "shutdown_continues_prob": 20,
+      "watch": "Last-ditch pushes, brinkmanship"
+    },
+    {
+      "day": 7,
+      "date": "2025-10-08",
+      "end_today_prob": 4,
+      "shutdown_continues_prob": 14,
+      "watch": "If still ongoing, heavy damage, strong push to end"
+    },
+    {
+      "day": 8,
+      "date": "2025-10-09",
+      "end_today_prob": 3,
+      "shutdown_continues_prob": 11,
+      "watch": "Extended standoff; political & economic pressure"
+    },
+    {
+      "day": 9,
+      "date": "2025-10-10",
+      "end_today_prob": 3,
+      "shutdown_continues_prob": 8,
+      "watch": "Extended standoff; political & economic pressure"
+    },
+    {
+      "day": 10,
+      "date": "2025-10-11",
+      "end_today_prob": 3,
+      "shutdown_continues_prob": 5,
+      "watch": "Extended standoff; political & economic pressure"
+    },
+    {
+      "day": 11,
+      "date": "2025-10-12",
+      "end_today_prob": 2,
+      "shutdown_continues_prob": 3,
+      "watch": "Extended standoff; political & economic pressure"
+    },
+    {
+      "day": 12,
+      "date": "2025-10-13",
+      "end_today_prob": 1.5,
+      "shutdown_continues_prob": 1.5,
+      "watch": "Extended standoff; political & economic pressure"
+    },
+    {
+      "day": 13,
+      "date": "2025-10-14",
+      "end_today_prob": 1,
+      "shutdown_continues_prob": 0.5,
+      "watch": "Extended standoff; political & economic pressure"
+    }
+  ]
+}

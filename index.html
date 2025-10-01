@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Government Shutdown Probability Tracker</title>
+    <meta name="description" content="Subjective probability forecast for the U.S. government shutdown length, updated via JSON.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      body { background-color: #0b0f19; color: #e5e7eb; }
+      .card { background-color: #111827; border-color: #1f2937; }
+      .table { color: #e5e7eb; }
+      .table thead th { color: #94a3b8; text-transform: uppercase; letter-spacing: .06em; font-size: .8rem; }
+      #chart { height: 280px; background: #0b1222; border: 1px solid #1f2937; border-radius: .75rem; }
+      a.badge-download { text-decoration: none; }
+    </style>
+  </head>
+  <body class="bg-dark text-light">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-semibold" href="#">Shutdown Tracker</a>
+        <div class="d-flex">
+          <a href="data/probabilities.json" download class="badge rounded-pill text-bg-light text-dark badge-download">Download JSON</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="container my-4">
+      <h1 class="display-6 mb-0">Government Shutdown Length Probability Tracker</h1>
+      <p class="text-secondary mb-0">Last updated: <span id="subtitle">—</span></p>
+    </header>
+
+    <!-- KPIs Row -->
+    <section class="container mb-4">
+      <div class="row g-3 text-center">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <div class="text-secondary text-uppercase small">Median length</div>
+              <div class="fs-2 fw-bold" id="median">—</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <div class="text-secondary text-uppercase small">Mean length</div>
+              <div class="fs-2 fw-bold" id="mean">—</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <div class="text-secondary text-uppercase small">Chance ends within a week</div>
+              <div class="fs-2 fw-bold" id="withinWeek">—</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Chart + Bucket Table -->
+    <section class="container mb-4">
+      <div class="row g-3">
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-header">Probability by Length Bucket</div>
+            <div class="card-body">
+              <div id="chart" class="p-2"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-header">Buckets</div>
+            <div class="card-body">
+              <div class="table-responsive">
+                <table class="table table-dark table-striped align-middle">
+                  <thead>
+                    <tr><th>Length bucket</th><th>Probability</th></tr>
+                  </thead>
+                  <tbody id="bucket-rows"></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Daily Odds Tracker -->
+    <section class="container mb-5">
+      <div class="card">
+        <div class="card-header">Daily Odds Tracker</div>
+        <div class="card-body">
+          <div class="table-responsive">
+            <table class="table table-dark table-striped table-sm align-middle mb-0">
+              <thead>
+                <tr>
+                  <th>Day</th>
+                  <th>Date</th>
+                  <th>Prob ends today</th>
+                  <th>Prob continues</th>
+                  <th>What to watch</th>
+                </tr>
+              </thead>
+              <tbody id="daily-rows"></tbody>
+            </table>
+          </div>
+          <p class="text-secondary mt-3 mb-0">Edit <code>data/probabilities.json</code> to update in real time. No build step required.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="container text-center text-secondary pb-4">
+      Built for GitHub Pages · MIT License
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
