@@ -1,11 +1,11 @@
 
 async function loadData() {
   try {
-    const res = await fetch('data/probabilities.json', { cache: 'no-store' });
+    const res = await fetch('probabilities.json', { cache: 'no-store' });
     const data = await res.json();
     render(data);
   } catch (e) {
-    console.error('Failed to load data/probabilities.json', e);
+    console.error('Failed to load probabilities.json', e);
   }
 }
 
