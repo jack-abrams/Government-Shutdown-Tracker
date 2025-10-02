@@ -6,23 +6,23 @@
   },
   "buckets": [
     {
-      "range": "0\u20133 days",
+      "range": "0–3 days",
       "prob": 18
     },
     {
-      "range": "4\u20137 days",
+      "range": "4–7 days",
       "prob": 34
     },
     {
-      "range": "8\u201314 days",
+      "range": "8–14 days",
       "prob": 23
     },
     {
-      "range": "15\u201321 days",
+      "range": "15–21 days",
       "prob": 12
     },
     {
-      "range": "22\u201335 days",
+      "range": "22–35 days",
       "prob": 8
     },
     {
@@ -31,15 +31,15 @@
     }
   ],
   "derived": {
-    "median_days": "\u2248 6\u20137",
-    "mean_days": "\u2248 10\u201311",
+    "median_days": "≈ 6–7",
+    "mean_days": "≈ 10–11",
     "chance_end_within_week_percent": 52
   },
   "daily_tracker": [
     {
       "day": 0,
       "date": "2025-10-01",
-      "end_today_prob": null,
+      "end_today_prob": 0,
       "shutdown_continues_prob": 100,
       "watch": "Opening day shutdown confirmation, leadership positioning"
     },
@@ -53,97 +53,98 @@
     {
       "day": 2,
       "date": "2025-10-03",
-      "end_today_prob": 16,
+      "end_today_prob": 28,
       "shutdown_continues_prob": 72,
       "watch": "Possible House rule vote, USDA furlough impacts"
     },
     {
       "day": 3,
       "date": "2025-10-04",
-      "end_today_prob": 20,
+      "end_today_prob": 48,
       "shutdown_continues_prob": 52,
       "watch": "Weekend leader calls, moderates pressing short-term patch"
     },
     {
       "day": 4,
       "date": "2025-10-05",
-      "end_today_prob": 24,
+      "end_today_prob": 72,
       "shutdown_continues_prob": 28,
       "watch": "Sunday show narratives, potential Senate cloture filing"
     },
     {
       "day": 5,
       "date": "2025-10-06",
-      "end_today_prob": 18,
+      "end_today_prob": 90,
       "shutdown_continues_prob": 10,
       "watch": "Treasury cash flow updates, floor vote timing"
     },
     {
       "day": 6,
       "date": "2025-10-07",
-      "end_today_prob": 12,
+      "end_today_prob": 94,
       "shutdown_continues_prob": 6,
       "watch": "Continuing resolution text release, federal contractor strain"
     },
     {
       "day": 7,
       "date": "2025-10-08",
-      "end_today_prob": 9,
+      "end_today_prob": 95,
       "shutdown_continues_prob": 5,
       "watch": "Caucus holdouts, defense hawks floating fallback plan"
     },
     {
       "day": 8,
       "date": "2025-10-09",
-      "end_today_prob": 7,
+      "end_today_prob": 97,
       "shutdown_continues_prob": 3,
       "watch": "Business coalition letters, governor pressure campaign"
     },
     {
       "day": 9,
       "date": "2025-10-10",
-      "end_today_prob": 5,
+      "end_today_prob": 98,
       "shutdown_continues_prob": 2,
       "watch": "Credit market jitters, bipartisan backchannel talks"
     },
     {
       "day": 10,
       "date": "2025-10-11",
-      "end_today_prob": 4,
+      "end_today_prob": 98.6,
       "shutdown_continues_prob": 1.4,
       "watch": "Holiday weekend leverage, pressure from mayors and CEOs"
     },
     {
       "day": 11,
       "date": "2025-10-12",
-      "end_today_prob": 3,
+      "end_today_prob": 99,
       "shutdown_continues_prob": 1,
       "watch": "Extended standoff; worker furlough hardship stories"
     },
     {
       "day": 12,
       "date": "2025-10-13",
-      "end_today_prob": 2.2,
+      "end_today_prob": 99.4,
       "shutdown_continues_prob": 0.6,
       "watch": "Extended standoff; Pentagon readiness bulletins"
     },
     {
       "day": 13,
       "date": "2025-10-14",
-      "end_today_prob": 1.5,
+      "end_today_prob": 99.6,
       "shutdown_continues_prob": 0.4,
       "watch": "Extended standoff; bipartisan discharge petition chatter"
     },
     {
       "day": 14,
       "date": "2025-10-15",
-      "end_today_prob": 1,
+      "end_today_prob": 99.8,
       "shutdown_continues_prob": 0.2,
       "watch": "If still ongoing, severe disruption prompts emergency talks"
     },
     {
       "day": 15,
       "date": "2025-10-16",
+      "end_today_prob": 99.85,
       "end_today_prob": 0.8,
       "shutdown_continues_prob": 0.15,
       "watch": "Backpay bill negotiations; OMB contingency updates"
@@ -151,6 +152,7 @@
     {
       "day": 16,
       "date": "2025-10-17",
+      "end_today_prob": 99.88,
       "end_today_prob": 0.7,
       "shutdown_continues_prob": 0.12,
       "watch": "FAA staffing strain; moderate coalition press conference"
@@ -158,6 +160,7 @@
     {
       "day": 17,
       "date": "2025-10-18",
+      "end_today_prob": 99.9,
       "end_today_prob": 0.6,
       "shutdown_continues_prob": 0.1,
       "watch": "Markets watching T-bill auctions; governors escalate push"
@@ -165,6 +168,7 @@
     {
       "day": 18,
       "date": "2025-10-19",
+      "end_today_prob": 99.92,
       "end_today_prob": 0.5,
       "shutdown_continues_prob": 0.08,
       "watch": "Weekend pressure; small business relief demands"
@@ -172,6 +176,7 @@
     {
       "day": 19,
       "date": "2025-10-20",
+      "end_today_prob": 99.935,
       "end_today_prob": 0.45,
       "shutdown_continues_prob": 0.065,
       "watch": "Agency overtime liabilities; CR text revisions"
@@ -179,6 +184,7 @@
     {
       "day": 20,
       "date": "2025-10-21",
+      "end_today_prob": 99.945,
       "end_today_prob": 0.4,
       "shutdown_continues_prob": 0.055,
       "watch": "Debt limit parallels; bipartisan lunch meeting"
@@ -186,6 +192,7 @@
     {
       "day": 21,
       "date": "2025-10-22",
+      "end_today_prob": 99.955,
       "end_today_prob": 0.35,
       "shutdown_continues_prob": 0.045,
       "watch": "Humanitarian aid logjams; Senate procedural maneuvers"
@@ -193,6 +200,7 @@
     {
       "day": 22,
       "date": "2025-10-23",
+      "end_today_prob": 99.965,
       "end_today_prob": 0.3,
       "shutdown_continues_prob": 0.035,
       "watch": "Federal employee rally; continuing resolution amendments"
@@ -200,6 +208,7 @@
     {
       "day": 23,
       "date": "2025-10-24",
+      "end_today_prob": 99.972,
       "end_today_prob": 0.25,
       "shutdown_continues_prob": 0.028,
       "watch": "CR fallback scoring; leadership approval dips"
@@ -207,6 +216,7 @@
     {
       "day": 24,
       "date": "2025-10-25",
+      "end_today_prob": 99.978,
       "end_today_prob": 0.22,
       "shutdown_continues_prob": 0.022,
       "watch": "Defense readiness hearings; credit rating warnings"
@@ -214,6 +224,7 @@
     {
       "day": 25,
       "date": "2025-10-26",
+      "end_today_prob": 99.982,
       "end_today_prob": 0.2,
       "shutdown_continues_prob": 0.018,
       "watch": "Weekend governor summit; airline disruption risk"
@@ -221,6 +232,7 @@
     {
       "day": 26,
       "date": "2025-10-27",
+      "end_today_prob": 99.986,
       "end_today_prob": 0.18,
       "shutdown_continues_prob": 0.014,
       "watch": "Appropriations staff marathon; FEMA depletion"
@@ -228,6 +240,7 @@
     {
       "day": 27,
       "date": "2025-10-28",
+      "end_today_prob": 99.989,
       "end_today_prob": 0.15,
       "shutdown_continues_prob": 0.011,
       "watch": "Contractor insolvency risk; bipartisan pressure cooker"
@@ -235,6 +248,7 @@
     {
       "day": 28,
       "date": "2025-10-29",
+      "end_today_prob": 99.991,
       "end_today_prob": 0.12,
       "shutdown_continues_prob": 0.009,
       "watch": "State aid delays; national parks closure backlash"
@@ -242,6 +256,7 @@
     {
       "day": 29,
       "date": "2025-10-30",
+      "end_today_prob": 99.993,
       "end_today_prob": 0.1,
       "shutdown_continues_prob": 0.007,
       "watch": "Month-end payroll missed; emergency appropriation talk"
@@ -249,6 +264,7 @@
     {
       "day": 30,
       "date": "2025-10-31",
+      "end_today_prob": 99.995,
       "end_today_prob": 0.08,
       "shutdown_continues_prob": 0.005,
       "watch": "Halloween deadline theatrics; credit downgrade fears"
