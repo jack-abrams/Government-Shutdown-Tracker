@@ -21,13 +21,12 @@ async function loadData() {
     const url = new URL('probabilities.json', window.location.href);
     url.searchParams.set('t', Date.now());
 
-    const res = await fetch(url, { cache: 'no-store' });
-    if (!res.ok) {
-      throw new Error(`Request for probabilities.json failed with status ${res.status}`);
+    const response = await fetch(url.toString(), { cache: 'no-store' });
+    if (!response.ok) {
+      throw new Error(`Request for probabilities.json failed with status ${response.status}`);
     }
 
-    const res = await fetch('probabilities.json', { cache: 'no-store' });
-    const data = await res.json();
+    const data = await response.json();
     render(data);
   } catch (e) {
     console.error('Failed to load probabilities.json', e);
