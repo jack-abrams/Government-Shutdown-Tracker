@@ -145,6 +145,7 @@
       "day": 15,
       "date": "2025-10-16",
       "end_today_prob": 99.85,
+      "end_today_prob": 0.8,
       "shutdown_continues_prob": 0.15,
       "watch": "Backpay bill negotiations; OMB contingency updates"
     },
@@ -152,6 +153,7 @@
       "day": 16,
       "date": "2025-10-17",
       "end_today_prob": 99.88,
+      "end_today_prob": 0.7,
       "shutdown_continues_prob": 0.12,
       "watch": "FAA staffing strain; moderate coalition press conference"
     },
@@ -159,6 +161,7 @@
       "day": 17,
       "date": "2025-10-18",
       "end_today_prob": 99.9,
+      "end_today_prob": 0.6,
       "shutdown_continues_prob": 0.1,
       "watch": "Markets watching T-bill auctions; governors escalate push"
     },
@@ -166,6 +169,7 @@
       "day": 18,
       "date": "2025-10-19",
       "end_today_prob": 99.92,
+      "end_today_prob": 0.5,
       "shutdown_continues_prob": 0.08,
       "watch": "Weekend pressure; small business relief demands"
     },
@@ -173,6 +177,7 @@
       "day": 19,
       "date": "2025-10-20",
       "end_today_prob": 99.935,
+      "end_today_prob": 0.45,
       "shutdown_continues_prob": 0.065,
       "watch": "Agency overtime liabilities; CR text revisions"
     },
@@ -180,6 +185,7 @@
       "day": 20,
       "date": "2025-10-21",
       "end_today_prob": 99.945,
+      "end_today_prob": 0.4,
       "shutdown_continues_prob": 0.055,
       "watch": "Debt limit parallels; bipartisan lunch meeting"
     },
@@ -187,6 +193,7 @@
       "day": 21,
       "date": "2025-10-22",
       "end_today_prob": 99.955,
+      "end_today_prob": 0.35,
       "shutdown_continues_prob": 0.045,
       "watch": "Humanitarian aid logjams; Senate procedural maneuvers"
     },
@@ -194,6 +201,7 @@
       "day": 22,
       "date": "2025-10-23",
       "end_today_prob": 99.965,
+      "end_today_prob": 0.3,
       "shutdown_continues_prob": 0.035,
       "watch": "Federal employee rally; continuing resolution amendments"
     },
@@ -201,6 +209,7 @@
       "day": 23,
       "date": "2025-10-24",
       "end_today_prob": 99.972,
+      "end_today_prob": 0.25,
       "shutdown_continues_prob": 0.028,
       "watch": "CR fallback scoring; leadership approval dips"
     },
@@ -208,6 +217,7 @@
       "day": 24,
       "date": "2025-10-25",
       "end_today_prob": 99.978,
+      "end_today_prob": 0.22,
       "shutdown_continues_prob": 0.022,
       "watch": "Defense readiness hearings; credit rating warnings"
     },
@@ -215,6 +225,7 @@
       "day": 25,
       "date": "2025-10-26",
       "end_today_prob": 99.982,
+      "end_today_prob": 0.2,
       "shutdown_continues_prob": 0.018,
       "watch": "Weekend governor summit; airline disruption risk"
     },
@@ -222,6 +233,7 @@
       "day": 26,
       "date": "2025-10-27",
       "end_today_prob": 99.986,
+      "end_today_prob": 0.18,
       "shutdown_continues_prob": 0.014,
       "watch": "Appropriations staff marathon; FEMA depletion"
     },
@@ -229,6 +241,7 @@
       "day": 27,
       "date": "2025-10-28",
       "end_today_prob": 99.989,
+      "end_today_prob": 0.15,
       "shutdown_continues_prob": 0.011,
       "watch": "Contractor insolvency risk; bipartisan pressure cooker"
     },
@@ -236,6 +249,7 @@
       "day": 28,
       "date": "2025-10-29",
       "end_today_prob": 99.991,
+      "end_today_prob": 0.12,
       "shutdown_continues_prob": 0.009,
       "watch": "State aid delays; national parks closure backlash"
     },
@@ -243,6 +257,7 @@
       "day": 29,
       "date": "2025-10-30",
       "end_today_prob": 99.993,
+      "end_today_prob": 0.1,
       "shutdown_continues_prob": 0.007,
       "watch": "Month-end payroll missed; emergency appropriation talk"
     },
@@ -250,6 +265,7 @@
       "day": 30,
       "date": "2025-10-31",
       "end_today_prob": 99.995,
+      "end_today_prob": 0.08,
       "shutdown_continues_prob": 0.005,
       "watch": "Halloween deadline theatrics; credit downgrade fears"
     }
